@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twilio SMS Alert</title>
+    <script type="text/javascript">
+        document.write('<link rel="import" href="' + window.Alteryx.LibDir + '2/lib/includes.html">');
+    </script>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend class="tool-legend">Twilio SMS Alert</legend>
+        <label class="section-header">Credentials</label>
+        <ayx data-ui-props='{type:"TextBox", widgetId:"accountSID", placeholder:"Account SID"}' data-item-props='{dataName:"accountSID", dataType:"SimpleString"}'></ayx>
+        <ayx data-ui-props='{type:"TextBox", widgetId:"authToken", placeholder:"Authentication Token"}' data-item-props='{dataName:"authToken", dataType:"SimpleString"}'></ayx>
+        <ayx data-ui-props='{type:"TextBox", widgetId:"from", placeholder:"Twilio Phone Number"}' data-item-props='{dataName:"from", dataType:"SimpleString"}'></ayx>
+
+        <hr>
+
+        <label class="section-header">Message Options</label>
+        <ayx data-ui-props='{type:"DropDown", widgetId:"to", searchable:true, clearable:true, placeholder:"To"}' data-item-props='{dataName:"to", dataType:"FieldSelector"}'></ayx>
+        <ayx data-ui-props='{type:"DropDown", widgetId:"messageBody", searchable:true, clearable:true, placeholder:"Body"}' data-item-props='{dataName:"messageBody", dataType:"FieldSelector"}'></ayx>
+        <ayx data-ui-props='{type:"DropDown", widgetId:"mediaUrl", searchable:true, clearable:true, placeholder:"Media URL (optional)"}' data-item-props='{dataName:"mediaUrl", dataType:"FieldSelector"}'></ayx>
+    </fieldset>
+</body>
+
+</html>

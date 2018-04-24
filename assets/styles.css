@@ -1,0 +1,21 @@
+.tool-legend {
+	background-color: #e5e5e5;
+}
+
+.section-header {
+	margin: 5px;
+    font-weight: bold;
+}
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+    margin: 8px 0px 0px 0px;
+}
+
+ayx {
+	margin-bottom: 5px;
+}

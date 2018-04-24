@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--All paths are relative to this config file.
+	The variables [Engine.EngineDirectory], [Engine.PluginDirectory]
+	and [Engine.JavaScriptPluginDirectory] can also be used-->
+<AlteryxJavaScriptPlugin>
+    <EngineSettings EngineDllEntryPoint="TwilioSMSAlert\Supporting_Macros\twilio-sms-alert-engine.yxmc" EngineDll="Macro" SDKVersion="10.1" />
+    <GuiSettings Help="" Html="TwilioSMSAlertGui.html" Icon="TwilioSMSAlertIcon.png" SDKVersion="10.1">
+        <InputConnections>
+            <Connection Name="Input" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+        </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="True" Type="Connection" Label=""/>
+    </OutputConnections>
+    </GuiSettings>
+    <Properties>
+        <MetaInfo>
+            <NameIsFileName value="False" />
+            <Name>Twilio SMS Alert</Name>
+            <Description>Generate SMS notifications using Twilio. v0.0.0.1 Alpha</Description>
+            <RootToolName></RootToolName>
+            <ToolVersion>1</ToolVersion>
+            <ToolInDb value="False" />
+            <CategoryName>Connectors</CategoryName>
+            <SearchTags>twilio, sms, alert, notifications, notify, phone, message, text, api, cloud, mobile</SearchTags>
+            <Author>Stephen Wagner</Author>
+            <Company></Company>
+            <Copyright>2017</Copyright>
+            <DescriptionLink actual="" displayed="" />
+        </MetaInfo>
+    </Properties>
+</AlteryxJavaScriptPlugin>

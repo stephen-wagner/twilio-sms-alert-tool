@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxJavaScriptPlugin>
+   <Properties>
+      <MetaInfo>
+         <Name>Twilio SMS Alert</Name>
+         <Description>Generate SMS notifications using Twilio. v1.0.0 Beta</Description>
+         <ToolVersion>1</ToolVersion>
+         <CategoryName>Connectors</CategoryName>
+         <Author>Stephen Wagner</Author>
+         <Icon>TwilioSMSAlert\TwilioSMSAlertIcon.png</Icon>
+      </MetaInfo>
+   </Properties>
+</AlteryxJavaScriptPlugin>
