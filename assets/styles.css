@@ -1,9 +1,9 @@
 .tool-legend {
-	background-color: #e5e5e5;
+    background-color: transparent;
 }
 
 .section-header {
-	margin: 5px;
+    margin: 5px;
     font-weight: bold;
 }
 
@@ -17,5 +17,5 @@ hr {
 }
 
 ayx {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
